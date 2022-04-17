@@ -2,9 +2,12 @@
   text-decoration: none;
   margin-right: 30px;
   font-size: 20px;
-  color:black;
+  color:white;
   font-weight: 600;
 }
 .customHeader a:hover{
     color:orangered;
+}
+.navbar-toggler-icon {
+  background-image: url(https://www.pngkey.com/png/full/206-2069918_menu-icon-png-menu-icon-white-png.png);
 }

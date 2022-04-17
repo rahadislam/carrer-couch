@@ -2,13 +2,12 @@ import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Header.css'
-import logo from '../../images/logo.png'
-import Slider from './Slider/Slider';
+import logo from '../../images/logo.png';
 
 const Header = () => {
     return (
         // Menu area start
-        <Navbar  expand="lg">
+        <Navbar sticky="top" style={{backgroundColor:'#0d062a'}}  expand="lg">
             <Container>
                 <img width="130"  src={logo} alt="" />
                 <Navbar.Toggle aria-controls="navbarScroll" />
