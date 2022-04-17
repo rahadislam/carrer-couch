@@ -7,7 +7,7 @@ const Course = ({info}) => {
     
     const naviget=useNavigate();
     const explorehandelar=()=>{
-        naviget('/about');
+        naviget('/cheakout');
     }
     return (
         <Col className='mb-5'>

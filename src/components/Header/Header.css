@@ -8,6 +8,8 @@
 .customHeader a:hover{
     color:orangered;
 }
-.navbar-toggler-icon {
-  background-image: url(https://www.pngkey.com/png/full/206-2069918_menu-icon-png-menu-icon-white-png.png);
+.profile{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
 }
