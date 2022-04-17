@@ -1,11 +1,13 @@
 import React from 'react';
-import {Container, Nav, Navbar } from 'react-bootstrap';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Header.css'
 import logo from '../../images/logo.png'
+import Slider from './Slider/Slider';
 
 const Header = () => {
     return (
+        // Menu area start
         <Navbar  expand="lg">
             <Container>
                 <img width="130"  src={logo} alt="" />
@@ -26,6 +28,8 @@ const Header = () => {
                 </Navbar.Collapse>
             </Container>
         </Navbar>
+        //Menu area end
+       
     );
 };
 
