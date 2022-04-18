@@ -17,4 +17,5 @@
 #cartHead{
     color: #0d062a;
     font-weight: 700;
+    text-transform: capitalize;
 }

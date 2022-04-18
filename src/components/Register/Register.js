@@ -45,7 +45,11 @@ const Register = () => {
     }
     
     return (
-        <div className='from-control'>
+        <div className='d-flex align-items-center flex-wrap '>
+            <div>
+                <img src="https://cdni.iconscout.com/illustration/premium/thumb/user-sign-up-4489353-3723261.png" alt="" />
+            </div>
+            <div className='from-control my-5 py-3 shadow-lg bg-white rounded'>
             <h1>Register Now</h1>
             <form onSubmit={formhandelar}>
                 <div className='from-fild'>
@@ -68,19 +72,9 @@ const Register = () => {
                 </div>
             </form>
             <p>Already have an account? <Link to='/login' element={<Login></Login>}>Login Now!</Link></p>
-            <div className='orstyle'>
-                <div className='or'></div>
-                or
-                <div className='or'></div>
-            </div>
-            
-               <button className='googlePopup'>
-                   <img src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13.png" alt="" />
-                    <p>Continu with Google</p>
-               </button>
-            
-
         </div>
+        </div>
+        
     );
 };
 

@@ -1,37 +1,38 @@
 [
     {
       "_id": "623853b2614ad5aba311fdd1",
-      "price": 14,
+      "title": "how to achieve success in life",
       "picture": "https://prairietherapy.ca/wp-content/uploads/2016/10/active.jpg",
-      "name": "Just Chill"
+      "description": "You don't have to wonder why you are here and if you will find success. The Kingdom System is for those who want to live a life of meaning and purpose"
     },
     {
       "_id": "623853b2578e9e6ad1ae0dd5",
       "picture": "https://iotcdn.oss-ap-southeast-1.aliyuncs.com/family.jpg",
-      "name": "Keep Coding",
-      "price": 27
+      "description": "How long should the bonding process take? It's completely normal to take a few days, a few weeks or several months to feel that special bond.",
+      "title": "how to bonding with baby?"
     },
     {
       "_id": "623853b21fb149d2ee7b76c7",
       "picture": "https://ied.eu/wp-content/uploads/2020/09/career-management-skills.jpg",
-      "name": "Black",
-      "price": 24
+      "description": "I think many of us in education would agree that the college admission process borders on being out of control. There are just too many stories about students.",
+      "title": "The Mastery of Cultural Balance?"
     },
     {
       "_id": "623853b2e91c8de578c9245e",
       "picture": "https://thumbs.dreamstime.com/b/conceptual-photo-career-goals-handwritten-phrase-a-career-goal-is-well-defined-statement-explaining-profession-214597062.jpg",
-      "name": "Mix Yellow",
-      "price": 14
+      "description": "Specific. When setting goals, an individual shouldn't just focus on being successfu.Tie actions to each goal,Write them down, months to feel that special bond",
+      "title": "Set up your career Goals?"
     },
     {
       "_id": "623853b2239582e48409ccc6",
+      "title": "How to grow skills?",
       "picture": "https://www.eescorporation.com/wp-content/uploads/2021/08/Skill-Words-5.jpg",
-      "name": "Bachelor",
-      "gender": "male"
+      "description": "Set goals for yourself,Find a mentor,Seek feedback about strengths and weaknesses,Review job descriptions for positions you want"
     },
     {
       "_id": "623853b2cdda0d5bc294f791",
+      "title":"how to prepare for an interview?",
       "picture": "https://previews.123rf.com/images/artursz/artursz1807/artursz180702196/104080207-text-sign-showing-me-myself-and-i-conceptual-photo-selfish-self-independent-taking-responsibility-of.jpg",
-      "name": "Right Price"
+      "description": "Research the industry and company,Clarify your selling points and the reasons you want the job,Anticipate the interviewer's concerns and reservations"
     }
   ]
