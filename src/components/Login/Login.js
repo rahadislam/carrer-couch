@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Spinner } from 'react-bootstrap';
 import { useSendPasswordResetEmail, useSignInWithEmailAndPassword, useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../firebase.init';
@@ -69,7 +70,7 @@ const Login = () => {
                         <input type="submit" value="Login" />
                     </div>
                     <p>{error?.message}</p>
-                    <p>{loading && <p>Loading...............</p>}</p>
+                    <p>{loading && <Spinner animation="border" />}</p>
                     <button className='forget' onClick={()=>sendPasswordResetEmail(email)}>forget password</button>
                 </form>
 
