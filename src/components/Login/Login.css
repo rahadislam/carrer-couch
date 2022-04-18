@@ -88,3 +88,11 @@
     font-size: 17px;
     margin-top: 15px;
 }
+.forget{
+    color: blue;
+    text-transform: capitalize;
+    font-size: 19px;
+    border: none;
+    background: transparent;
+    padding: 0;
+}

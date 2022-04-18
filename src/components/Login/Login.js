@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useSignInWithEmailAndPassword, useSignInWithGoogle } from 'react-firebase-hooks/auth';
+import { useSendPasswordResetEmail, useSignInWithEmailAndPassword, useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../firebase.init';
 import Register from '../Register/Register';
@@ -17,6 +17,11 @@ const Login = () => {
     ] = useSignInWithEmailAndPassword(auth);
     const [signInWithGoogle] = useSignInWithGoogle(auth);
     const navigate = useNavigate();
+
+    //forget password
+    const [sendPasswordResetEmail] = useSendPasswordResetEmail(
+        auth
+      );
 
     //all event handeler
     const emailhandelar = (event) => {
@@ -65,7 +70,9 @@ const Login = () => {
                     </div>
                     <p>{error?.message}</p>
                     <p>{loading && <p>Loading...............</p>}</p>
+                    <button className='forget' onClick={()=>sendPasswordResetEmail(email)}>forget password</button>
                 </form>
+
                 <p>You dont have and Account! <Link to='/register' element={<Register></Register>}>Register Now!</Link></p>
                 <div className='orstyle'>
                     <div className='or'></div>

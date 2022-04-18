@@ -3,14 +3,21 @@ import { Link, useNavigate } from 'react-router-dom';
 import auth from '../../firebase.init';
 import './Register.css'
 import Login from '../Login/Login';
-import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import { useCreateUserWithEmailAndPassword, useSendEmailVerification} from 'react-firebase-hooks/auth';
 
 const Register = () => {
     const [email,setEmail]=useState('');
     const [password,setPassword]=useState('');
     const [confrirmPassword,setconfrirmPassword]=useState('');
     const [error,setError]=useState('');
+
+    //email and password create
     const [createUserWithEmailAndPassword,user]=useCreateUserWithEmailAndPassword(auth);
+    
+    //email verification
+    const [sendEmailVerification]=useSendEmailVerification(auth);
+    
+    
     const navigate=useNavigate();
 
     //all event handeler
@@ -29,6 +36,7 @@ const Register = () => {
     if(user){
         navigate('/home');
     }
+    console.log(user);
 
     //form handelr area 
     const formhandelar=(event)=>{
@@ -38,11 +46,14 @@ const Register = () => {
         }
         if(password.length<6){
             setError("at list 6 charecter type password!!")
-
+            
         }
-        createUserWithEmailAndPassword(email,password);
+        
+        createUserWithEmailAndPassword(email,password);sendEmailVerification();
 
     }
+
+    
     
     return (
         <div className='d-flex align-items-center flex-wrap '>
