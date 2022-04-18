@@ -1,5 +1,9 @@
-h3{
-    color: black;
+.slider-head{
+    color: #0d062ad1;;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 45px;
 }
+.slider-title{
+    color: #000000c9;
+    font-size: 20px;
+    font-weight: 600;}

@@ -1,0 +1,20 @@
+
+
+#aa{
+    color: #e9ecef;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 1s;
+    background-color: #0d062a;
+}
+#aa:hover{
+    color: #0d062a;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 1s;
+    background-color: #e9ecef;
+}
+#cartHead{
+    color: #0d062a;
+    font-weight: 700;
+}

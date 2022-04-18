@@ -37,7 +37,7 @@ const Login = () => {
     //from handelar
     const googlehandelar=()=>{
         signInWithGoogle();
-        navigate(from, {replace: true});
+    navigate(from, {replace: true});
 
     }
     const formhandelar=(event)=>{
