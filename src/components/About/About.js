@@ -4,8 +4,13 @@ import './About.css';
 const About = () => {
     return (
         <div className='d-flex align-items-center flex-wrap py-5'>
-            <div className="profile_head">
+            <div className="profile_head py-5">
                 <h1><u>About ME</u></h1>
+                <p>My Name is <strong>Rahad Islam Saimun</strong>.I am student .I studied Diploma in 6th semester. I want to be a full stack web Developer and I am a student of computer in 6th semester.I live in Noakhali and now in Feni</p>
+
+                <h3><u>My Goals</u></h3>
+                <p>My goal is to become a full stack web developer and build my identity as a junior web developer  with in the next 6 months.I am ready to do my best for the next 6 months to create a web Developer. The reason for creating a website is to create new websites to make people's work easier.</p>
+
 
             </div>
             <div className='profile_img'>
