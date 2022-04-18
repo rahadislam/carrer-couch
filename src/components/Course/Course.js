@@ -12,7 +12,7 @@ const Course = ({info}) => {
     }
     return (
         <Col className='mb-5'>
-            <Card className="shadow p-3 bg-white rounded" style={{ width: '25rem' }}>
+            <Card className="shadow p-3 bg-white rounded" style={{ width: '21rem' }}>
                 <Card.Img style={{ height: '15rem' }} variant="top" src={picture} />
                 <Card.Body>
                     <Card.Title id="cartHead">{title}</Card.Title>
